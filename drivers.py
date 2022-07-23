@@ -102,7 +102,7 @@ def inline_keyboard2(chat_id, text):
 
 
 def check_time():
-	if datetime.datetime.now().hour == 13 and datetime.datetime.now().minute == 40 and flag_date[datetime.date.today().strftime("%d.%m.%y")] == 0:		
+	if datetime.datetime.now().hour == 14 and datetime.datetime.now().minute == 50 and flag_date[datetime.date.today().strftime("%d.%m.%y")] == 0:		
 		flag_date[datetime.date.today().strftime("%d.%m.%y")] = 1
 		#gt.del_driver_from_table(data_car)
 		for driver in drivers:
